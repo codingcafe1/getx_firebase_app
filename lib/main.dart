@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 
+String regExpression = r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+";
+
 void main() async
 {
   WidgetsFlutterBinding.ensureInitialized();
